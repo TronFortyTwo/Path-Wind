@@ -1,0 +1,15 @@
+{
+    "name": "pathwind.emanuelesorce",
+    "description": "Fly against the wind!",
+    "framework": "ubuntu-sdk-15.04.6",
+    "architecture": "@CLICK_ARCH@",
+    "title": "Path Wind",
+    "hooks": {
+        "pathwind": {
+            "apparmor": "pathwind.apparmor",
+            "desktop": "pathwind.desktop"
+        }
+    },
+    "version": "0.2.11",
+    "maintainer": "Emanuele Sorce <emanuele.sorce@hotmail.com>"
+}
